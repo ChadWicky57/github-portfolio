@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: #243b5a;
+            padding: 14px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #8ecae6;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        h2 {
+            color: #172b4d;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #dce5ef;
+            padding-bottom: 8px;
+        }
+
+        .project {
+            background: #f4f6f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #172b4d;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 12px;
+        }
+
+        .button:hover {
+            background: #31577e;
+        }
+
+        footer {
+            background: #172b4d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YOUR FULL NAME</h1>
+        <p>Computer Science Student | Aspiring Technology Professional</p>
+        <p>Welcome to My Professional Portfolio</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Write your professional biography here. Include your
+                educational background, academic interests, technical
+                experience, career interests, expected graduation date,
+                and professional goals.
+            </p>
+        </section>
+
+        <section id="resume">
+            <h2>My Resume</h2>
+            <p>
+                View or download my professional resume.
+            </p>
+            <a class="button" href="resume.pdf" target="_blank">
+                View Resume
+            </a>
+            <a class="button" href="resume.pdf" download>
+                Download Resume
+            </a>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>AI Study Guide Generator</h3>
+                <p>
+                    An AI-assisted application designed to help students
+                    create study materials, flashcards, and quizzes
+                    from their class notes.
+                </p>
+                <p><strong>Technologies:</strong>
+                    Python, Streamlit, Gemini AI
+                </p>
+                <p>Project source code and screenshots coming soon.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <p><strong>Programming:</strong> Add your languages here.</p>
+            <p><strong>Software:</strong> Add your software tools here.</p>
+            <p><strong>Databases:</strong> Add your database skills here.</p>
+            <p><strong>Other:</strong> Add your other technical skills here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: YOUR EMAIL ADDRESS</p>
+            <p>LinkedIn: YOUR LINKEDIN PROFILE</p>
+            <p>GitHub: YOUR GITHUB PROFILE</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>My Professional Portfolio | 2026</p>
+    </footer>
+
+</body>
+</html>
