@@ -1,14 +1,26 @@
-
----
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-  {% seo %}
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jekyll-theme-minimal@0.2.0/assets/css/style.css">
+  <style>
+    body {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    header { border-bottom: 2px solid #ddd; padding-bottom: 20px; }
+    nav { margin: 20px 0; }
+    nav a { margin-right: 18px; color: #2675b9; text-decoration: none; }
+    section { margin: 35px 0; }
+    h1, h2 { color: #2675b9; }
+    .project { padding: 15px; border: 1px solid #ddd; margin: 15px 0; border-radius: 6px; }
+  </style>
 </head>
 <body>
 
@@ -18,10 +30,10 @@
 </header>
 
 <nav>
-  <a href="#about">About</a> |
-  <a href="#resume">Resume</a> |
-  <a href="#projects">Projects</a> |
-  <a href="#skills">Skills</a> |
+  <a href="#about">About</a>
+  <a href="#resume">Resume</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
   <a href="#contact">Contact</a>
 </nav>
 
@@ -42,12 +54,12 @@
 
 <section id="projects">
   <h2>Projects</h2>
-  <h3>AI Study Tool</h3>
-  <p>
-    A project designed to help students create study materials
-    from their class notes.
-  </p>
-  <p><strong>Technologies:</strong> Python, Streamlit, AI</p>
+  <div class="project">
+    <h3>AI Study Tool</h3>
+    <p>A project designed to help students create study materials
+    from their class notes.</p>
+    <p><strong>Technologies:</strong> Python, Streamlit, AI</p>
+  </div>
 </section>
 
 <section id="skills">
@@ -57,23 +69,19 @@
     <li>Java</li>
     <li>Python</li>
   </ul>
-
   <h2>Systems</h2>
   <ul>
     <li>Windows</li>
   </ul>
-
   <h2>Database</h2>
   <ul>
     <li>To be expanded with more experience...</li>
   </ul>
-
   <h2>Cloud</h2>
   <ul>
     <li>Google Cloud</li>
     <li>Azure</li>
   </ul>
-
   <h2>AI Tools</h2>
   <ul>
     <li>ChatGPT</li>
