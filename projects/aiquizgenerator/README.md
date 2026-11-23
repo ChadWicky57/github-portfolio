@@ -75,13 +75,13 @@ GEMINI_API_KEY = "YOUR_API_KEY"
 Add screenshots of the application below to demonstrate its functionality.
 
 ### Application Homepage
-[Insert screenshot of the application homepage here.]
+![AI Quiz Generator](screenshots/homepage.png)
 
 ### Generated Interactive Quiz
-[Insert screenshot showing generated questions and answer choices here.]
+![Interactive Quiz](screenshots/quiz.png)
 
 ### Quiz Results
-[Insert screenshot showing the final score and answer explanations here.]
+![Quiz Results](screenshots/results.png)
 
 ## 6. Technologies Used
 
