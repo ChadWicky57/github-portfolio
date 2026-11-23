@@ -9,9 +9,9 @@ from google import genai
 # Page setup
 # -----------------------------
 
-st.set_page_config(page_title="StudyBuddy AI", page_icon="📚")
+st.set_page_config(page_title="AI Quiz Generator", page_icon="📚")
 
-st.title("StudyBuddy AI")
+st.title("AI Quiz Generator")
 st.write("Upload your class notes or paste text to create an interactive quiz.")
 
 # Keep quiz data between Streamlit refreshes
