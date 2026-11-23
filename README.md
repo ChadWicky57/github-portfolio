@@ -15,4 +15,4 @@ I am interested in application and game development. I hope to one day be profic
 - **Programming:** C++, C, Java, Python
 - **Applications:** Visual Studio, Autodesk Fusion
 - **AI Tools:** ChatGPT, Google Gemini
-- **Projects:** AI Study Tool
+- **Projects:** AI Quiz Generator
